@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background: url('img1.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav {
+    background-color: darkorchid;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+.nav p label{
+    color: white;
+}
+
+.new_user label{
+    color: white;
+}
+
+.lick a{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.nav .new_user{
+    font-size: 15px;
+    padding: 10px 20px 0 0;
+    font-weight: 500;
+}
+
+.new_user a{
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    margin-top: 100px;
+    background: transparent  ;
+    margin-left: 70px;
+    width: 700px;   
+}
+
+.stud p{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.desc p{
+    margin-top: -5px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: rgb(41, 40, 40);
+}
+
+.name .text{
+    font-size: 15px;
+    color: rgb(41, 40, 40);
+}
+
+.name .name_area{
+    width: 100%;
+    height: 60px;
+}
+
+.name_area input{
+    padding-left: 20px;
+    margin: 5px 5px 0 0;
+    width: 48%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid darkorchid;
+}
+
+.list{
+    color: rgb(41, 40, 40);
+}
+
+.list .head{
+    padding-top: 20px;
+    padding-bottom: 3px;
+    font-size: 15px;
+}
+
+.list .lit{
+    width: 100%;
+    height: 60px;
+}
+
+.lit select{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.form .sub_name{    
+    font-size: 15px;
+    color: rgb(41, 40, 40);
+}
+
+.sub_name p{
+    padding: 20px 0 3px;
+}
+
+.sub_name .sub{
+    width: 100%;
+    height: 60px;
+}
+
+.sub input{
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid darkorchid;
+    border-radius: 5px;
+}
+
+hr{
+    margin: 30px 10px;
+    border: 1px solid darkorchid;
+}
+
+.rate p{
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(41, 40, 40);
+}
+
+.tab th{
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.tab td{
+    font-weight: 300;
+    font-size: 15px;
+}
+ 
+#he{
+    padding: 10px;
+    font-weight: 600;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 1.3em;
+}
+
+.form .sub1{
+    display: flex;
+    justify-content: center ;
+    margin: 40px 0;
+}
+
+.sub1 button{
+    border: none;
+    outline: none;
+    background: darkorchid;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 80px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.tab table{
+    border: 1px solid darkorchid;
+}
